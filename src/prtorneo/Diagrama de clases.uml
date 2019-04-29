@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="77.0" y="292.0">prtorneo.FachadaTorneo</node>
+    <node x="469.0" y="217.0">prtorneo.Trampas</node>
+    <node x="-727.0" y="197.0">prtorneo.Enemigo</node>
+    <node x="-210.0" y="133.0">prtorneo.ApTorneo</node>
+    <node x="464.0" y="315.0">prtorneo.Arena</node>
+    <node x="472.0" y="517.0">prtorneo.Puerta</node>
+    <node x="-241.0" y="333.0">prtorneo.FachadaEnemigo</node>
+    <node x="81.0" y="112.0">prtorneo.Main</node>
+    <node x="464.0" y="415.0">prtorneo.Espectadores</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="prtorneo.FachadaEnemigo" target="prtorneo.Enemigo">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="prtorneo.FachadaTorneo" target="prtorneo.Arena">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="prtorneo.FachadaTorneo" target="prtorneo.Espectadores">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="prtorneo.FachadaTorneo" target="prtorneo.Puerta">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="prtorneo.ApTorneo" target="prtorneo.FachadaEnemigo">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="prtorneo.Main" target="prtorneo.ApTorneo">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="prtorneo.ApTorneo" target="prtorneo.FachadaTorneo">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="prtorneo.FachadaTorneo" target="prtorneo.Trampas">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="-9.0" y="340.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
